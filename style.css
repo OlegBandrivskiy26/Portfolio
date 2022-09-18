@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrap__conteiner{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.about__img{
+    width: 300px;
+    height: 80%;
+    background-image: url( ./img/logo.jpg);
+    background-size: cover;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.about__content{
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+.h1__span{
+    color: orange;
+}
+.h1__about{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.about__p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card-item{
+    background-color: #fff;
+    width: 310px;
+    height: 205px;
+    transition: transform 0.2s;
+    box-shadow: 0 0 20px #000;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ph1{
+    width: 310px;
+    height: 205px;
+    position: absolute;
+    z-index: 5;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(./img/LaslesVPN.png);
+}
+.ph2{
+    width: 310px;
+    height: 205px;
+    position: absolute;
+    z-index: 5;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(./img/cofemachine.png);
+}
+.ph3{
+    width: 310px;
+    height: 205px;
+    position: absolute;
+    z-index: 5;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(./img/spaceX.png);
+}
+.ph4{
+    width: 310px;
+    height: 205px;
+    position: absolute;
+    z-index: 5;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(./img/figmaLand.png);
+}
+.h1__box{
+    font-size: 18px;
+}
+.p__box{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn__box{
+    width: 120px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn__box, a{
+    text-decoration: none;
+    color: #fff;
+}
+@keyframes scrollUp {
+    10%{
+        height: 100%;
+        width: 310px;
+    }
+    100%{
+        height: 0%;
+        width: 310px;
+        display: none;
+    }
+}
+.box__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
